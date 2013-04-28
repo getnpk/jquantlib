@@ -149,7 +149,12 @@ public class Asia {
         }
     };
     
-
+    public static class NPKCurrency extends Currency{
+    	public NPKCurrency(){
+		Data npkData = new Data("NPK Dollar", "NPK", 999, "Npk","",100, new Rounding(),"%3% %1$.2f");
+		data = npkData;
+	}
+    }
     /**
      *  Iraqi dinar 
      * <p> 
